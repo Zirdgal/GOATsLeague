@@ -1,6 +1,7 @@
-Burkans # 15 - Sperma
-Zibens # 3 - Sperma
 Kolēģis # 2 - Sperma
+Zibens # 3 - Sperma
+Andrejs # 6 - Sperma
+Burkans # 15 - Sperma
 
 
 Bums # 8 - Faze LV
@@ -9,11 +10,14 @@ Pidrovskis # 73 - Faze LV
 
 
 
-Ralfs Ozols # 69 - Brazil
-Marko # 11 Brazil
+Mūks # 11 Brazil
+Ozollapa # 69 - Brazil
+
+
+
 
 
 Terminators #7 - McD
-Tomass # 12 - McD
 Janiga# 9 - McD
 Timofejs # 10 - McD
+Oto # 12 - McD
