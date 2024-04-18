@@ -1,0 +1,48 @@
+@font-face {
+    font-family: rubik-custom-font;
+    src: url(font/Rubik-Regular.ttf);
+}
+
+body {
+    font-family: rubik-custom-font;
+}
+
+#topbar-container {
+    width: 100%;
+    height: 20%;
+    overflow: auto;
+    background-color: black;
+}
+#topbar-container a {
+    max-height: 20%;
+    max-width: 20%;
+    background-color: white;
+    border: none;
+}
+#settings {
+    float: right;
+}
+.topbar-img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+#recent-matches-container {
+    background-color: lightgray;
+}
+
+.recent-matches-card {
+    max-height: 40%;
+    width: 90%;
+    background-color: gray;
+    display:grid;
+}
+.recent-matches-card-date-text {
+    grid-column: 1 / 2;
+}
+.recent-matches-card-club-logo {
+    width:40%;
+    height:auto;
+}
