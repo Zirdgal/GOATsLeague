@@ -27,7 +27,14 @@ h2 {
     background-color: white;
     z-index: 5;
 }
-#topbar-container a, button {
+#topbar-container a {
+    max-height: 20%;
+    max-width: 20%;
+    background-color: white;
+    border: none;
+    z-index: 6;
+}
+#topbar-container button {
     max-height: 20%;
     max-width: 20%;
     background-color: white;
