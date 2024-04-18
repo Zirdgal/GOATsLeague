@@ -46,9 +46,9 @@ h2 {
 
 
 #everything-container {
-    overflow-y: auto;
-    overflow-x: none;
+    overflow: none;
     margin-top: 20%;
+    padding-bottom:5%;
 }
 
 
@@ -150,7 +150,7 @@ h2 {
     display: inline-flex;
     white-space: nowrap;
     width: max-content;
-    overflow: auto;
+    overflow: none;
 }
 .players-card {
     width: 40vw;
@@ -173,6 +173,7 @@ h2 {
 .players-card-img img {
     width: 100%;
     height: auto;
+    border-radius: 15px;
 }
 
 
@@ -225,6 +226,61 @@ h2 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+#team-players-container {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 10px;
+}
+.team-players-scrollable {
+    display: inline-flex;
+    white-space: nowrap;
+    width: max-content;
+    overflow: none;
+}
+.team-players-card {
+    width: 28vw;
+    height: 25vw;
+    padding: 2%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-right: 20px;
+    white-space: normal;
+    text-align: center;
+    overflow:none;
+}
+
+
+
+
+
+
+.game-statistics-container {
+    background-color: lightgray;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+table, th, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding:7px;
+    text-align: center;
+}
 
 
 
