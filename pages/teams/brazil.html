@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>G.O.A.T's League</title>
+    
+        <link rel="stylesheet" href="../../mobile.css">
+        <link rel="icon" type="image/x-icon" href="../../img/favicon.ico">
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <style>
+        #brazil-container {
+            padding: 5%;
+            background-color: lightgray;
+        }
+
+        #page-highlight {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        #page-highlight img {
+            width:50%;
+        }
+
+        #page-highlight-text {
+            display: flex;
+            flex-direction: column;
+            align-items: space-between;
+        }
+    </style>
+
+<body>
+    <div id="topbar-container">
+        <a id="logo" href="../../index.html"><img src="../../img/logo.png" class="topbar-img"></a>
+        <button id="settings" onclick="toggleDropdown()"><img src="../../img/settings.png" class="topbar-img"></button>
+    </div>
+
+    <div id="dropdown" class="dropdown-menu">
+        <div id="dropdown-content">
+            <div id="dropdown-games-container" class="dropdown-container">
+                <a href="../../gameList.html">Spēles</a>
+            </div>
+            <div id="dropdown-teams-container" class="dropdown-container">
+                <a href="../../page2.html">Komandas</a>
+            </div>
+            <div id="dropdown-players-container" class="dropdown-container">
+                <a href="../../page2.html">Spēlētāji</a>
+            </div>
+            <div id="dropdown-stats-container" class="dropdown-container">
+                <a href="../../page2.html">Statistika</a>
+            </div>
+            <div id="dropdown-news-container" class="dropdown-container">
+                <a href="../../page2.html">Ziņas</a>
+            </div>
+            <div id="dropdown-rules-container" class="dropdown-container">
+                <a href="../../page2.html">Noteikumi</a>
+            </div>
+            <div id="dropdown-links-container" class="dropdown-container">
+                <a href="../../page2.html">Ārējās saites</a>
+            </div>
+        </div>
+    </div>
+
+<div id="everything-container">
+    <div id="brazil-container">
+        <div id="page-highlight">
+            <img src="../../img/FK-brazishi-nobg.png">
+            <div id="page-highlight-text">
+                <h2>FK Brazzīši</h2>
+                <div>No 2024. gada aprīļa</div>
+            </div>
+        </div>
+    </div>
+    <h2>Komandas Sastāvs:</h2>
+    <div id="team-players-container">
+        <div class="team-players-scrollable">
+            <a class="team-players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Mūks</div>
+                <div class="players-card-nr">#11</div>
+            </a>
+            <a class="team-players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Ozollapa</div>
+                <div class="players-card-nr">#69</div>
+            </a>
+            <a class="team-players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">nav</div>
+                <div class="players-card-nr">-</div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function toggleDropdown() {
+        var dropdown = document.getElementById('dropdown');
+        dropdown.classList.toggle('active');
+        document.body.classList.toggle('dropdown-open'); // Toggle body class to allow scroll
+    }
+</script>
+</body>
+</html>
