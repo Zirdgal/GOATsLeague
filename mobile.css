@@ -3,15 +3,21 @@
     src: url(font/Rubik-Regular.ttf);
 }
 
+
 body {
     font-family: rubik-custom-font;
+    overflow-x: none;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 
 #topbar-container {
     width: 100%;
-    height: 20%;
-    overflow: auto;
-    background-color: black;
+    position: fixed;
+    top: 0px;
+    background-color: white;
 }
 #topbar-container a {
     max-height: 20%;
@@ -21,6 +27,7 @@ body {
 }
 #settings {
     float: right;
+    padding-right: 5%;
 }
 .topbar-img {
     max-height: 100%;
@@ -29,20 +36,129 @@ body {
 
 
 
-#recent-matches-container {
-    background-color: lightgray;
+
+#everything-container {
+    overflow-y: auto;
+    overflow-x: none;
+    margin-top: 20%;
 }
 
+
+
+
+#recent-matches-container {
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+}
+.recent-matches-scrollable {
+    display: inline-flex;
+    white-space: nowrap;
+    width: max-content;
+    overflow: auto;
+}
 .recent-matches-card {
-    max-height: 40%;
-    width: 90%;
-    background-color: gray;
-    display:grid;
+    width: 80vw;
+    padding: 5%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-right: 20px;
+    white-space: normal;
 }
-.recent-matches-card-date-text {
-    grid-column: 1 / 2;
-}
+
 .recent-matches-card-club-logo {
-    width:40%;
-    height:auto;
+    width: 40%;
+    height: auto;
+}
+.recent-matches-card-club-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.recent-matches-card-game-info {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.recent-matches-card-date, .recent-matches-card-score, .recent-matches-card-place {
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+
+
+
+#teams-container {
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+}
+.teams-scrollable {
+    display: inline-flex;
+    white-space: nowrap;
+    width: max-content;
+    overflow: auto;
+}
+.teams-card {
+    width: 40vw;
+    height: 33vw;
+    padding: 2%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-right: 20px;
+    white-space: normal;
+}
+.teams-card-img {
+    width: 60%;
+    height: auto;
+}
+.teams-card-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+#players-container {
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+}
+.players-scrollable {
+    display: inline-flex;
+    white-space: nowrap;
+    width: max-content;
+    overflow: auto;
+}
+.players-card {
+    width: 40vw;
+    height: 33vw;
+    padding: 2%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-right: 20px;
+    white-space: normal;
+}
+.players-card-img {
+    width: 75%;
+    height: auto;
+}
+.players-card-img img {
+    width: 100%;
+    height: auto;
 }
