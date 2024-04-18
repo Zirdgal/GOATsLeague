@@ -25,6 +25,10 @@ a {
     background-color: white;
     border: none;
 }
+#logo {
+    float: left;
+    padding-left: 5%;
+}
 #settings {
     float: right;
     padding-right: 5%;
@@ -114,6 +118,7 @@ a {
     border-radius: 15px;
     margin-right: 20px;
     white-space: normal;
+    text-align: center;
 }
 .teams-card-img {
     width: 60%;
@@ -122,6 +127,7 @@ a {
 .teams-card-img img {
     width: 100%;
     height: auto;
+    border-radius: 15px;
 }
 
 
@@ -153,6 +159,7 @@ a {
     border-radius: 15px;
     margin-right: 20px;
     white-space: normal;
+    text-align: center;
 }
 .players-card-img {
     width: 75%;
