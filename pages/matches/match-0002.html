@@ -3,8 +3,8 @@
     <head>
         <title>G.O.A.T's League</title>
     
-        <link rel="stylesheet" href="../mobile.css">
-        <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+        <link rel="stylesheet" href="../../mobile.css">
+        <link rel="icon" type="image/x-icon" href="../../img/favicon.ico">
     
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,13 +14,40 @@
     </style>
 <body>
     <div id="topbar-container">
-        <a id="logo" href="../index.html"><img src="../img/logo.png" class="topbar-img"></a>
-        <a id="settings" href="../page2.html"><img src="../img/settings.png" class="topbar-img"></a>
+        <a id="logo" href="../../index.html"><img src="../../img/logo.png" class="topbar-img"></a>
+        <button id="settings" onclick="toggleDropdown()"><img src="../../img/settings.png" class="topbar-img"></button>
     </div>
+
+    <div id="dropdown" class="dropdown-menu">
+        <div id="dropdown-content">
+            <div id="dropdown-games-container" class="dropdown-container">
+                <a href="../../page2.html">Spēles</a>
+            </div>
+            <div id="dropdown-teams-container" class="dropdown-container">
+                <a href="../../page2.html">Komandas</a>
+            </div>
+            <div id="dropdown-players-container" class="dropdown-container">
+                <a href="../../page2.html">Spēlētāji</a>
+            </div>
+            <div id="dropdown-stats-container" class="dropdown-container">
+                <a href="../../page2.html">Statistika</a>
+            </div>
+            <div id="dropdown-news-container" class="dropdown-container">
+                <a href="../../page2.html">Ziņas</a>
+            </div>
+            <div id="dropdown-rules-container" class="dropdown-container">
+                <a href="../../page2.html">Noteikumi</a>
+            </div>
+            <div id="dropdown-links-container" class="dropdown-container">
+                <a href="../../page2.html">Ārējās saites</a>
+            </div>
+        </div>
+    </div>
+
 <div id="everything-container">
     <div id="score-container">
         <div class="score-logo">
-            <img src="../img/FK-spermotozidi-nobg.png">
+            <img src="../../img/FK-spermotozidi-nobg.png">
             <div>Sperma</div>
         </div>
         <div id="score-info">
@@ -29,43 +56,43 @@
             <div id="score-place">84. Vidusskola</div>
         </div>
         <div class="score-logo">
-            <img src="../img/FK-Faze-Latvija-nobg.png">
+            <img src="../../img/FK-Faze-Latvija-nobg.png">
             <div>Faze LV</div>
         </div>
     </div>
     <h2>Komandu Sastāvi:</h2>
     <div id="team-players-container">
         <div class="team-players-scrollable">
-            <a class="team-players-card" href="../page2.html" id="sperma-player-card">
-                <div class="players-card-img"><img src="../img/kolegis.png"></div>
+            <a class="team-players-card" href="../../page2.html" id="sperma-player-card">
+                <div class="players-card-img"><img src="../../img/kolegis.png"></div>
                 <div class="players-card-name">Kolēģis</div>
                 <div class="players-card-nr">#2</div>
             </a>
-            <a class="team-players-card" href="../page2.html" id="sperma-player-card">
-                <div class="players-card-img"><img src="../img/nophoto.png"></div>
+            <a class="team-players-card" href="../../page2.html" id="sperma-player-card">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
                 <div class="players-card-name">Zibens</div>
                 <div class="players-card-nr">#3</div>
             </a>
-            <a class="team-players-card" href="../page2.html" id="sperma-player-card">
-                <div class="players-card-img"><img src="../img/nophoto.png"></div>
+            <a class="team-players-card" href="../../page2.html" id="sperma-player-card">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
                 <div class="players-card-name">Burkāns</div>
                 <div class="players-card-nr">#15</div>
             </a>
         </div>
         <br><br>
         <div class="team-players-scrollable">
-            <a class="team-players-card" href="../page2.html" id="faze-player-card">
-                <div class="players-card-img"><img src="../img/nophoto.png"></div>
+            <a class="team-players-card" href="../../page2.html" id="faze-player-card">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
                 <div class="players-card-name">Bums</div>
                 <div class="players-card-nr">#8</div>
             </a>
-            <a class="team-players-card" href="../page2.html" id="faze-player-card">
-                <div class="players-card-img"><img src="../img/nophoto.png"></div>
+            <a class="team-players-card" href="../../page2.html" id="faze-player-card">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
                 <div class="players-card-name">Mucinieks</div>
                 <div class="players-card-nr">#18</div>
             </a>
-            <a class="team-players-card" href="../page2.html" id="faze-player-card">
-                <div class="players-card-img"><img src="../img/nophoto.png"></div>
+            <a class="team-players-card" href="../../page2.html" id="faze-player-card">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
                 <div class="players-card-name">Pidrovskis</div>
                 <div class="players-card-nr">#73</div>
             </a>
@@ -133,5 +160,12 @@
         </table> 
     </div>
 </div>
+<script>
+    function toggleDropdown() {
+        var dropdown = document.getElementById('dropdown');
+        dropdown.classList.toggle('active');
+        document.body.classList.toggle('dropdown-open'); // Toggle body class to allow scroll
+    }
+</script>
 </body>
 </html>

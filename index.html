@@ -12,13 +12,49 @@
 <body>
     <div id="topbar-container">
         <a id="logo" href="index.html"><img src="img/logo.png" class="topbar-img"></a>
-        <a id="settings" href="page2.html"><img src="img/settings.png" class="topbar-img"></a>
+        <button id="settings" onclick="toggleDropdown()"><img src="img/settings.png" class="topbar-img"></button>
     </div>
+
+
+
+
+
+    <div id="dropdown" class="dropdown-menu">
+        <div id="dropdown-content">
+            <div id="dropdown-games-container" class="dropdown-container">
+                <a href="page2.html">Spēles</a>
+            </div>
+            <div id="dropdown-teams-container" class="dropdown-container">
+                <a href="page2.html">Komandas</a>
+            </div>
+            <div id="dropdown-players-container" class="dropdown-container">
+                <a href="page2.html">Spēlētāji</a>
+            </div>
+            <div id="dropdown-stats-container" class="dropdown-container">
+                <a href="page2.html">Statistika</a>
+            </div>
+            <div id="dropdown-news-container" class="dropdown-container">
+                <a href="page2.html">Ziņas</a>
+            </div>
+            <div id="dropdown-rules-container" class="dropdown-container">
+                <a href="page2.html">Noteikumi</a>
+            </div>
+            <div id="dropdown-links-container" class="dropdown-container">
+                <a href="page2.html">Ārējās saites</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
 <div id="everything-container">
         <h2>Nākamās spēles:</h2>
     <div id="recent-matches-container">
         <div class="recent-matches-scrollable">
-            <a class="recent-matches-card" href="pages/match-0002.html">
+            <a class="recent-matches-card" href="pages/matches/match-0002.html">
                 <div class="recent-matches-card-club-logo">
                     <img src="img/FK-spermotozidi-nobg.png">
                     <div>Sperma</div>
@@ -88,5 +124,18 @@
         </div>
     </div>
 </div>
+
+
+<script>
+    function toggleDropdown() {
+        var dropdown = document.getElementById('dropdown');
+        dropdown.classList.toggle('active');
+        document.body.classList.toggle('dropdown-open'); // Toggle body class to allow scroll
+    }
+</script>
+
+
+
+
 </body>
 </html>
