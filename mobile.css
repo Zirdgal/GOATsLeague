@@ -7,10 +7,14 @@
 body {
     font-family: rubik-custom-font;
     overflow-x: none;
+    margin:0;
 }
 a {
     text-decoration: none;
     color: black;
+}
+h2 {
+    margin-left: 2%;
 }
 
 #topbar-container {
@@ -59,7 +63,7 @@ a {
     display: inline-flex;
     white-space: nowrap;
     width: max-content;
-    overflow: auto;
+    overflow: none;
 }
 .recent-matches-card {
     width: 80vw;
