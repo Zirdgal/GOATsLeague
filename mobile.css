@@ -80,6 +80,7 @@ h2 {
 .recent-matches-card-club-logo {
     width: 40%;
     height: auto;
+    text-align: center;
 }
 .recent-matches-card-club-logo img {
     width: 100%;
@@ -171,5 +172,50 @@ h2 {
 }
 .players-card-img img {
     width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOR MATCH . HTML's */
+
+
+
+#score-container {
+    background-color: lightgray;
+    width: 100%;
+    height: 20vh;
+    overflow: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#score-info {
+    flex-grow: 1;
+    text-align: center;
+    flex-direction: column;
+}
+#score-info div {
+    margin-top:15%;
+}
+#score-score {
+    font-size:24px;
+}
+#score-date, #score-place {
+    font-size:14px;
+}
+
+.score-logo img {
+    width: 50%;
     height: auto;
 }
