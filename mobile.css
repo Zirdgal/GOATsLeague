@@ -407,3 +407,25 @@ table, th, td {
     text-decoration: underline;
     font-size:18px;
 }
+
+
+.news-container {
+    width:100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.news-card {
+    width:90%;
+    padding:5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    border-radius:15px;
+}
+.news-card-img {
+    width:100%;
+    border-radius:15px;
+}
