@@ -115,9 +115,10 @@ body::-webkit-scrollbar {
 
 
 #everything-container {
-    overflow: none;
+    overflow: hidden;
     margin-top: 20%;
     padding-bottom:5%;
+    
 }
 
 
@@ -132,7 +133,7 @@ body::-webkit-scrollbar {
     display: inline-flex;
     white-space: nowrap;
     width: max-content;
-    overflow: none;
+    overflow: hidden;
 }
 .recent-matches-card {
     width: 80vw;
@@ -147,7 +148,7 @@ body::-webkit-scrollbar {
 }
 
 .recent-matches-card-club-logo {
-    width: 40%;
+    width: 80%;
     height: auto;
     text-align: center;
 }
@@ -377,6 +378,7 @@ table, th, td {
 }
 
 #page-highlight img {
+    margin-top:5px;
     width:50%;
 }
 
@@ -395,6 +397,8 @@ table, th, td {
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
+
+    overflow: hidden;
 }
 
 .download-container {
@@ -429,4 +433,32 @@ table, th, td {
 .news-card-img {
     width:100%;
     border-radius:15px;
+}
+
+.team-news-container {
+    width:100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-left:5%;
+}
+
+.team-news-card {
+    margin-top:5%;
+    width:80%;
+    padding:5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    border-radius:15px;
+    overflow: hidden;
+}
+.team-news-card-img {
+    width:100%;
+    border-radius:15px;
+    overflow:hidden;
 }
