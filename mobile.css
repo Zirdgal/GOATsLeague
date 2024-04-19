@@ -267,17 +267,21 @@ body::-webkit-scrollbar {
     justify-content: center;
     text-align: center;
 }
+
 #score-info {
     flex-grow: 1;
     text-align: center;
     flex-direction: column;
 }
+
 #score-info div {
     margin-top:15%;
 }
+
 #score-score {
     font-size:24px;
 }
+
 #score-date, #score-place {
     font-size:14px;
 }
@@ -287,33 +291,19 @@ body::-webkit-scrollbar {
     height: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #team-players-container {
     max-width: 100%;
     overflow-x: hidden;
     padding: 10px;
 }
+
 .team-players-scrollable {
     display: inline-flex;
     white-space: nowrap;
     width: max-content;
     overflow: none;
 }
+
 .team-players-card {
     width: 28vw;
     height: 25vw;
@@ -330,11 +320,6 @@ body::-webkit-scrollbar {
     overflow:none;
 }
 
-
-
-
-
-
 .game-statistics-container {
     background-color: lightgray;
     overflow-x: auto;
@@ -349,5 +334,35 @@ table, th, td {
 }
 
 
+
+
+
+
+
+
+
+
+/* Personal Team Pages */
+
+#team-highlight-container {
+    padding: 5%;
+    background-color: lightgray;
+}
+
+#page-highlight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#page-highlight img {
+    width:50%;
+}
+
+#page-highlight-text {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
 
 
