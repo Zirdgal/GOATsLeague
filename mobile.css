@@ -417,6 +417,7 @@ table, th, td {
 }
 
 .news-card {
+    margin-top:5%;
     width:90%;
     padding:5%;
     display: flex;
