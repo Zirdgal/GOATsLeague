@@ -379,7 +379,13 @@ table, th, td {
 
 #page-highlight img {
     margin-top:5px;
+    width:40%;
+}
+
+#page-highlight-portrait {
+    margin:5px;
     width:50%;
+    border-radius:15px;
 }
 
 #page-highlight-text {

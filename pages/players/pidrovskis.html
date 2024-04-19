@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>G.O.A.T's League</title>
+    
+        <link rel="stylesheet" href="../../mobile.css">
+        <link rel="icon" type="image/x-icon" href="../../img/favicon.ico">
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <div id="topbar-container">
+        <a id="logo" href="../../index.html"><img src="../../img/logo.png" class="topbar-img"></a>
+        <button id="settings" onclick="toggleDropdown()"><img src="../../img/settings.png" class="topbar-img"></button>
+    </div>
+
+    <div id="dropdown" class="dropdown-menu">
+        <div id="dropdown-content">
+            <div id="dropdown-games-container" class="dropdown-container">
+                <a href="../gameList.html">Spēles</a>
+            </div>
+            <div id="dropdown-teams-container" class="dropdown-container">
+                <a href="../teamList.html">Komandas</a>
+            </div>
+            <div id="dropdown-players-container" class="dropdown-container">
+                <a href="../playerList.html">Spēlētāji</a>
+            </div>
+            <div id="dropdown-stats-container" class="dropdown-container">
+                <a href="../statsList.html">Tabula</a>
+            </div>
+            <div id="dropdown-news-container" class="dropdown-container">
+                <a href="../newsList.html">Ziņas</a>
+            </div>
+            <div id="dropdown-rules-container" class="dropdown-container">
+                <a href="../rulesList.html">Noteikumi</a>
+            </div>
+            <div id="dropdown-links-container" class="dropdown-container">
+                <a href="../sitesList.html">Ārējās saites</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="everything-container">
+        <div id="team-highlight">
+            <div id="page-highlight">
+                <img src="../../img/portraits/pidrovskis.png" id="page-highlight-portrait">
+                <div id="page-highlight-text">
+                    <h2>Pidrovskis #73</h2>
+                    <div>FK Faze Latvijas spēlētājs</div>
+                </div>
+            </div>
+        </div>
+        <h2>Spēlētāja Statistika:</h2>
+        <div class="personal-team-stats-list-container">
+            <h3>Vārti: 0</h3>
+            <h3>Assisti: 0</h3>
+            <h3>Save: 0</h3>
+            <h3>Sodi: 0</h3>
+            <h3>Dzel. Karte: 0</h3>
+            <h3>Sark. Karte: 0</h3>
+        </div>
+    </div>
+
+
+<script>
+    function toggleDropdown() {
+        var dropdown = document.getElementById('dropdown');
+        dropdown.classList.toggle('active');
+        document.body.classList.toggle('dropdown-open'); // Toggle body class to allow scroll
+    }
+</script>
+</body>
+</html>
