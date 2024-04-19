@@ -244,6 +244,9 @@ body::-webkit-scrollbar {
     height: auto;
     border-radius: 15px;
 }
+.players-card-pos {
+    color: rgb(63, 63, 63);
+}
 
 
 
@@ -380,3 +383,12 @@ table, th, td {
 }
 
 
+.personal-team-stats-list-container {
+    background-color: lightgray;
+    padding: 3px 0 0 0;
+    border-radius: 5px;
+
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
