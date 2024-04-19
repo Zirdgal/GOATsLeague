@@ -396,3 +396,10 @@ table, th, td {
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+
+.download {
+    padding-left: 5%;
+    color: blue;
+    text-decoration: underline;
+}
