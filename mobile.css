@@ -397,9 +397,13 @@ table, th, td {
     flex-direction: row;
 }
 
-
+.download-container {
+    display: flex;
+    flex-direction: column;
+}
 .download {
     padding-left: 5%;
     color: blue;
     text-decoration: underline;
+    font-size:18px;
 }
