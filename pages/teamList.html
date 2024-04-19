@@ -10,52 +10,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-<style>
-#all-matches-container {
-    max-width: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 10px;
-}
-.all-matches-scrollable {
-    display: inline-flex;
-    white-space: nowrap;
-    width: max-content;
-    overflow: none;
-}
-.all-matches-card {
-    width: 95vw;
-    padding: 5%;
-    background-color: lightgray;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 15px;
-    margin-right: 20px;
-    white-space: normal;
-    overflow-x: hidden;
-}
+    <style>
+    
+    .all-teams-card {
+        width: 44.5vw;
+        height: 40vw;
+        padding: 2%;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        margin-right: 20px;
+        white-space: normal;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    #all-teams-container {
+        max-width: 100%;
+        overflow-x: hidden;
+        padding: 10px;
+    }
+    .all-teams-scrollable {
+        display: inline-flex;
+        white-space: nowrap;
+        width: max-content;
+        overflow: auto;
+    }
 
-.all-matches-card-club-logo {
-    width: 40%;
-    height: auto;
-    text-align: center;
-}
-.all-matches-card-club-logo img {
-    width: 100%;
-    height: auto;
-}
-
-.all-matches-card-game-info {
-    flex-grow: 1;
-    text-align: center;
-}
-
-.all-matches-card-date, .all-matches-card-score, .all-matches-card-place {
-    margin: 0 20px;
-    padding: 10px 0;
-}    
-</style>
+    </style>
 
 <body>
     <div id="topbar-container">
@@ -90,24 +74,27 @@
     </div>
 
 <div id="everything-container">
-    <h2>Visas Spēles:</h2>
-    <div id="all-matches-container">
-        <div class="all-matches-scrollable">
-            <a class="all-matches-card" href="matches/match-0002.html">
-                <div class="all-matches-card-club-logo">
-                    <img src="../img/FK-spermotozidi-nobg.png">
-                    <div>Sperma</div>
-                </div>
-                <div class="all-matches-card-game-info">
-                    <div class="all-matches-card-date">19/04 9:30</div>
-                    <div class="all-matches-card-score">0 - 0</div>
-                    <div class="all-matches-card-place">84. Vidusskola</div>
-                    <div style="color:green; font-weight:bold; text-decoration: underline;">Uz Spēli!</div>
-                </div>
-                <div class="all-matches-card-club-logo">
-                    <img src="../img/FK-Faze-Latvija-nobg.png">
-                    <div>Faze LV</div>
-                </div>
+    <h2>Visas Komandas:</h2>
+    <div id="all-teams-container">
+        <div class="all-teams-scrollable">
+            <a class="all-teams-card" href="teams/brazil.html">
+                <div class="teams-card-img"><img src="../img/FK-brazishi-nobg.png"></div>
+                <div class="team-card-name">FK Brazzīši</div>
+            </a>
+            <a class="all-teams-card" href="teams/faze.html">
+                <div class="teams-card-img"><img src="../img/FK-Faze-Latvija-nobg.png"></div>
+                <div class="team-card-name">FK Faze Latvija</div>
+            </a>
+        </div>
+        <br><br>
+        <div class="all-teams-scrollable">
+            <a class="all-teams-card" href="teams/McD.html">
+                <div class="teams-card-img"><img src="../img/FK-McD-nobg.png"></div>
+                <div class="team-card-name">FK McD Čučilas</div>
+            </a>
+            <a class="all-teams-card" href="teams/sperma.html">
+                <div class="teams-card-img"><img src="../img/FK-spermotozidi-nobg.png"></div>
+                <div class="team-card-name">FK Spermatozīdi</div>
             </a>
         </div>
     </div>
