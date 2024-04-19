@@ -341,12 +341,19 @@ table, th, td {
 
 
 
-/*DropDown Pages Css*/
+
+
+/* Personal Team Pages */
 
 .text-icon-image {
     width: 30px;
+    height: 30px;
 }
-.team-name-td {
+.text-icon-image-players {
+    width: 60px;
+    height: 60px;
+}
+.team-name-container {
     display: flex;
     flex-direction: row;
     align-content:center;
@@ -357,9 +364,6 @@ table, th, td {
 
 
 
-
-
-/* Personal Team Pages */
 
 #team-highlight-container {
     padding: 5%;
