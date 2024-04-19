@@ -1,16 +1,16 @@
 Kolēģis # 2 - Sperma
-Zibens # 3 - Sperma
-Burkāns # 15 - Sperma
+Zibens (C) # 3 - Sperma
+Burkāns (A) # 15 - Sperma
 
-Bums # 8 - Faze LV
-Mucinieks # 18 - Faze LV
+Bums (C) # 8 - Faze LV
+Mucinieks (A) # 18 - Faze LV
 Pidrovskis # 73 - Faze LV
 
-Andrejs # 6 - Brazil
+Andrejs (C) # 6 - Brazil
 Mūks # 11 Brazil
-Ozollapa # 69 - Brazil
+Ozollapa (A) # 69 - Brazil
 
-Terminators #7 - McD
-Janiga# 9 - McD
-Timofejs # 10 - McD
+Terminators (C) #7 - McD
+Janiga # 9 - McD
+Timofejs (A) # 10 - McD
 Oto # 12 - McD
