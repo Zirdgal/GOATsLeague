@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>G.O.A.T's League</title>
+    
+        <link rel="stylesheet" href="../mobile.css">
+        <link rel="icon" type="image/x-icon" href="..//img/favicon.ico">
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+<style>
+    
+
+</style>
+
+<body>
+    <div id="topbar-container">
+        <a id="logo" href="../index.html"><img src="../img/logo.png" class="topbar-img"></a>
+        <button id="settings" onclick="toggleDropdown()"><img src="../img/settings.png" class="topbar-img"></button>
+    </div>
+
+    <div id="dropdown" class="dropdown-menu">
+        <div id="dropdown-content">
+            <div id="dropdown-games-container" class="dropdown-container">
+                <a href="gameList.html">Spēles</a>
+            </div>
+            <div id="dropdown-teams-container" class="dropdown-container">
+                <a href="teamList.html">Komandas</a>
+            </div>
+            <div id="dropdown-players-container" class="dropdown-container">
+                <a href="playerList.html">Spēlētāji</a>
+            </div>
+            <div id="dropdown-stats-container" class="dropdown-container">
+                <a href="statsList.html">Tabula</a>
+            </div>
+            <div id="dropdown-news-container" class="dropdown-container">
+                <a href="../page2.html">Ziņas</a>
+            </div>
+            <div id="dropdown-rules-container" class="dropdown-container">
+                <a href="../page2.html">Noteikumi</a>
+            </div>
+            <div id="dropdown-links-container" class="dropdown-container">
+                <a href="../page2.html">Ārējās saites</a>
+            </div>
+        </div>
+    </div>
+
+<div id="everything-container">
+    <h2>Visi Spēlētāji:</h2>
+    <h3>FK Brazzīši:</h3>
+    <div id="players-container">
+        <div class="players-scrollable">
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Mūks</div>
+                <div class="players-card-nr">#11</div>
+            </a>
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Ozollapa</div>
+                <div class="players-card-nr">#69</div>
+            </a>
+        </div>
+    </div>
+    <h3>FK Faze Latvija:</h3>
+    <div id="players-container">
+        <div class="players-scrollable">
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Bums</div>
+                <div class="players-card-nr">#8</div>
+            </a>
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Mucinieks</div>
+                <div class="players-card-nr">#18</div>
+            </a>
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Timofejs</div>
+                <div class="players-card-nr">#73</div>
+            </a>
+        </div>
+    </div>
+    <h3>FK McD Čučilas:</h3>
+    <div id="players-container">
+        <div class="players-scrollable">
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Terminators</div>
+                <div class="players-card-nr">#7</div>
+            </a>
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Janiga</div>
+                <div class="players-card-nr">#9</div>
+            </a>
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Timofejs</div>
+                <div class="players-card-nr">#10</div>
+            </a>
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Oto</div>
+                <div class="players-card-nr">#12</div>
+            </a>
+        </div>
+    </div>
+    <h3>FK Spermatozīdi:</h3>
+    <div id="players-container">
+        <div class="players-scrollable">
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/kolegis.png"></div>
+                <div class="players-card-name">Kolēģis</div>
+                <div class="players-card-nr">#2</div>
+            </a>
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Zibens</div>
+                <div class="players-card-nr">#3</div>
+            </a>
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Andrejs</div>
+                <div class="players-card-nr">#6</div>
+            </a>
+            <a class="players-card" href="../../page2.html">
+                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-name">Burkāns</div>
+                <div class="players-card-nr">#15</div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function toggleDropdown() {
+        var dropdown = document.getElementById('dropdown');
+        dropdown.classList.toggle('active');
+        document.body.classList.toggle('dropdown-open'); // Toggle body class to allow scroll
+    }
+</script>
+</body>
+</html>

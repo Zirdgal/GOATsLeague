@@ -19,6 +19,9 @@ a {
 h2 {
     margin-left: 2%;
 }
+h3 {
+    margin-left:4%;
+}
 
 #topbar-container {
     width: 100%;
@@ -335,8 +338,19 @@ table, th, td {
 
 
 
+/*DropDown Pages Css*/
 
-
+.text-icon-image {
+    width: 30px;
+}
+.team-name-td {
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+}
+.team-name-text {
+    align-self: center;
+}
 
 
 
