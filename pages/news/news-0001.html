@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>G.O.A.T's League</title>
+    
+        <link rel="stylesheet" href="../../mobile.css">
+        <link rel="icon" type="image/x-icon" href="../../img/favicon.ico">
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <div id="topbar-container">
+        <a id="logo" href="../../index.html"><img src="../../img/logo.png" class="topbar-img"></a>
+        <button id="settings" onclick="toggleDropdown()"><img src="../../img/settings.png" class="topbar-img"></button>
+    </div>
+
+    <div id="dropdown" class="dropdown-menu">
+        <div id="dropdown-content">
+            <div id="dropdown-games-container" class="dropdown-container">
+                <a href="../gameList.html">Spēles</a>
+            </div>
+            <div id="dropdown-teams-container" class="dropdown-container">
+                <a href="../teamList.html">Komandas</a>
+            </div>
+            <div id="dropdown-players-container" class="dropdown-container">
+                <a href="../playerList.html">Spēlētāji</a>
+            </div>
+            <div id="dropdown-stats-container" class="dropdown-container">
+                <a href="../statsList.html">Tabula</a>
+            </div>
+            <div id="dropdown-news-container" class="dropdown-container">
+                <a href="../newsList.html">Ziņas</a>
+            </div>
+            <div id="dropdown-rules-container" class="dropdown-container">
+                <a href="../rulesList.html">Noteikumi</a>
+            </div>
+            <div id="dropdown-links-container" class="dropdown-container">
+                <a href="../sitesList.html">Ārējās saites</a>
+            </div>
+        </div>
+    </div>
+
+<div id="everything-container">
+    <div class="news-highlight">
+        <div class="news-highlight-text">
+            <h2>G.O.A.T's League tagad pieņem jaunas komandas!</h2>
+            <div>20/04/2024 - M. Zirdziņš</div>
+        </div>
+        <img src="../../img/news-img/League-new-teams.png">
+    </div>
+    <div class="news-text">
+        <div>
+            No šī brīža jauni spēlētāji drīkst pieteikt jaunas komandas G.O.A.T's League! <wbr>
+            Lai Spēlētāji pieteiktu jaunas komandas, spēlētājiem ir jāizpilda <a href="../../txt/GOATsLeagueTeamRegistration.docx" style="color: blue; text-decoration: underline;">šī forma</a> un jāsūta tā uz goatsfootballassociation@gmail.com <wbr>
+            Jaunās komandas būs pievienotas G.O.A.T's League otrajā sezonā!
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function toggleDropdown() {
+        var dropdown = document.getElementById('dropdown');
+        dropdown.classList.toggle('active');
+        document.body.classList.toggle('dropdown-open'); // Toggle body class to allow scroll
+    }
+</script>
+</body>
+</html>
