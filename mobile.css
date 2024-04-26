@@ -460,6 +460,12 @@ table, th, td {
     text-decoration: underline;
     font-size:18px;
 }
+.non-download {
+    padding-left: 5%;
+    color: blue;
+    text-decoration: underline;
+    font-size:18px;
+}
 
 
 .news-container {
