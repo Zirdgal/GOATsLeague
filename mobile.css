@@ -8,6 +8,7 @@ body {
     font-family: rubik-custom-font;
     overflow-x: hidden;
     margin:0;
+    font-size: 2.5vh;
 }
 body.dropdown-open {
     overflow: hidden;
@@ -60,6 +61,21 @@ h3 {
 
 
 
+#first-time-popup-container {
+    background-color: red;
+    position: absolute;
+    display: flex;
+}
+#first-time-popup-card {
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -89,7 +105,7 @@ body::-webkit-scrollbar {
     width:100vw;
     height:10vh;
     text-align: center;
-    font-size:28px;
+    font-size:5vh;
 }
 
 
@@ -289,7 +305,6 @@ body::-webkit-scrollbar {
 }
 .index-news-card-text {
     margin-top: 2%;
-    font-size: 18px;
     font-weight: bold;
     word-wrap:break-word;
 }
@@ -330,10 +345,6 @@ body::-webkit-scrollbar {
 
 #score-score {
     font-size:24px;
-}
-
-#score-date, #score-place {
-    font-size:14px;
 }
 
 .score-logo-image {
@@ -458,13 +469,11 @@ table, th, td {
     padding-left: 5%;
     color: blue;
     text-decoration: underline;
-    font-size:18px;
 }
 .non-download {
     padding-left: 5%;
     color: blue;
     text-decoration: underline;
-    font-size:18px;
 }
 
 
