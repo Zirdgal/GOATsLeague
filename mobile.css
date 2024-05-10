@@ -282,7 +282,7 @@ body::-webkit-scrollbar {
     word-wrap:break-word;
 }
 .index-news-card-img {
-    width:150%;
+    width:125%;
     height: 20vh;
     border-radius:15px;
     overflow:hidden;
