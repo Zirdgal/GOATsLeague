@@ -61,13 +61,38 @@ h3 {
 
 
 
+
+
+
+
+
+
+
+
+
 #first-time-popup-container {
-    background-color: red;
-    position: absolute;
+    z-index: 6;
+    background-image: url(img/darken.png);
+    position: fixed;
     display: flex;
+    justify-content: center;
+    width:100vw;
+    height: 100vh;
 }
 #first-time-popup-card {
-
+    background-color: lightgray;
+    width:75%;
+    height:40%;
+    align-self: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+#first-time-popup-card button {
+    height:100%;
+    width:50%;
+    border: none;
+    font-size:5vh;
 }
 
 

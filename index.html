@@ -3,20 +3,40 @@
 <head>
     <title>G.O.A.T's League</title>
 
-    <link rel="stylesheet" href="mobile.css">
+    <link id="mobileCSS" rel="stylesheet" href="mobile.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://kit.fontawesome.com/fe50138296.js" crossorigin="anonymous"></script>
+    <script>
+        function toggleDropdown() {
+            var dropdown = document.getElementById('dropdown');
+            dropdown.classList.toggle('active');
+            document.body.classList.toggle('dropdown-open'); // Toggle body class to allow scroll
+        }
+        function toggleCSS(value) {
+            const sheets = document.getElementsByTagName('link');
+            sheets[0].href = value;
+        }   
+    </script>
 </head>
 <body>
+<!--
+    <div id="first-time-popup-container">
+        <div id="first-time-popup-card">
+            <button onclick="toggleCSS('mobile.css')">Mobile CSS</button>
+            <button>Computer CSS</button>
+        </div>
+    </div>
+-->
+
+
     <div id="topbar-container">
         <a id="logo" href="index.html"><img src="img/logo.png" class="topbar-img"></a>
         <button id="settings" onclick="toggleDropdown()"><img src="img/settings.png" class="topbar-img"></button>
     </div>
-
 
 
 
@@ -181,18 +201,5 @@
         </div>
     </div>
 </div>
-
-
-<script>
-    function toggleDropdown() {
-        var dropdown = document.getElementById('dropdown');
-        dropdown.classList.toggle('active');
-        document.body.classList.toggle('dropdown-open'); // Toggle body class to allow scroll
-    }
-</script>
-
-
-
-
 </body>
 </html>
