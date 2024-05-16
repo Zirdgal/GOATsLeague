@@ -1,0 +1,1 @@
+var game0005 = {team1: "Sperma", team1Goal: 0,team1Assist: 0,team1Save: 0,team1Foul: 0, team1Yellow: 0, team1Red: 0, team2: "Faze", team2Goal: 0,team2Assist: 0,team2Save: 0,team2Foul: 0, team2Yellow: 0, team2Red: 0,}
