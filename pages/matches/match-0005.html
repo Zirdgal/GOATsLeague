@@ -49,12 +49,12 @@
 <div id="everything-container">
     <div id="score-container">
         <div class="score-logo">
-            <a href="../teams/brazil.html"><img src="../../img/FK-spermotozidi-nobg.png" class="score-logo-image"></a>
+            <a href="../teams/sperma.html"><img src="../../img/FK-spermotozidi-nobg.png" class="score-logo-image"></a>
             <div>Sperma</div>
         </div>
         <div id="score-info">
             <div id="score-date">17/05 11:45</div>
-            <div id="score-score"><p id="match0005-text">0 - 0</p></div>
+            <div id="score-score"><p id="match0005-text">3 - 4</p></div>
             <div id="score-place">84. Vidusskola</div>
         </div>
         <div class="score-logo">
@@ -76,9 +76,9 @@
                 <div class="players-card-nr">#15</div>
             </a>
             <a class="team-players-card" href="../../page2.html">
-                <div class="players-card-img"><img src="../../img/nophoto.png"></div>
+                <div class="players-card-img"><img src="../../img/portraits/key-z.png"></div>
                 <div class="players-card-name">Key-Z</div>
-                <div class="players-card-nr">#15</div>
+                <div class="players-card-nr">#19</div>
             </a>
         </div>
         <br><br>
@@ -115,69 +115,66 @@
             <tr>
                 <td>Zibens #3</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td>1</td>
+                <td>3</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
             </tr>
             <tr>
                 <td>Burkāns #15</td>
+                <td>1</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td>4</td>
+                <td>1</td>
+                <td>1</td>
                 <td>0</td>
             </tr>
             <tr>
                 <td>Key-Z #19</td>
+                <td>2</td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td>1</td>
+                <td>1</td>
                 <td>0</td>
             </tr>
             <tr>
                 <td>Bums #8</td>
+                <td>1</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td>3</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
             </tr>
             <tr>
                 <td>Mucinieks #18</td>
+                <td>3</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
                 <td>0</td>
             </tr>
             <tr>
                 <td>Pidrovskis #73</td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
             </tr>
         </table> 
     </div>
 </div>
 <script>
-    import match0005 from "../../data/data.js";
     function toggleDropdown() {
         var dropdown = document.getElementById('dropdown');
         dropdown.classList.toggle('active');
         document.body.classList.toggle('dropdown-open'); // Toggle body class to allow scroll
     }
-    const gameScore = document.getElementById("score-score");
-    gameScore.innerHTML = match0005.team1Goal + " - " + match0005.team2Goal;
 </script>
 </body>
 </html>
