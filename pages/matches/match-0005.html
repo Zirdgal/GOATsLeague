@@ -170,11 +170,14 @@
     </div>
 </div>
 <script>
+    import match0005 from "../../data/data.js";
     function toggleDropdown() {
         var dropdown = document.getElementById('dropdown');
         dropdown.classList.toggle('active');
         document.body.classList.toggle('dropdown-open'); // Toggle body class to allow scroll
     }
+    const gameScore = document.getElementById("score-score");
+    gameScore.innerHTML = match0005.team1Goal + " - " + match0005.team2Goal;
 </script>
 </body>
 </html>
