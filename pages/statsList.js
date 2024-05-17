@@ -1,9 +1,5 @@
-import { game0004, game0005 } from "../../data/data.js";
+import { game0004, game0005 } from "../data/data.js";
 
-let goalElement = document.getElementById("brazz-goal");
-let assistElement = document.getElementById("brazz-assist");
-let foulElement = document.getElementById("brazz-foul");
-let saveElement = document.getElementById("brazz-save");
 let statsGoalElement = document.getElementById("stats-brazz-goal");
 let statsAssistElement = document.getElementById("stats-brazz-assist");
 let statsFoulElement = document.getElementById("stats-brazz-foul");
@@ -47,12 +43,6 @@ if (game0005.team1 = "Brazz") {
     saveCount = game0005.team2Save + saveCount;
 
 }
-
-
-goalElement.innerHTML = "Vārti:" + goalCount;
-assistElement.innerHTML = "Assisti:" + assistCount;
-foulElement.innerHTML = "Sodi:" + foulCount;
-saveElement.innerHTML = "Save:" + saveCount;
 
 statsGoalElement.value = goalCount;
 statsAssistElement.innerHTML = assistCount;
