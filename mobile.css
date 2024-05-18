@@ -221,6 +221,7 @@ body::-webkit-scrollbar {
     overflow-x: auto;
     overflow-y: hidden;
     padding: 10px;
+    font-size: 3vh;
 }
 .players-scrollable {
     display: inline-flex;
@@ -230,7 +231,7 @@ body::-webkit-scrollbar {
 }
 .players-card-full {
     width: 45vw;
-    height: 50vw;
+    height: 55vw;
     padding: 1%;
     background-color: lightgray;
     border-radius: 15px;
