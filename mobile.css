@@ -367,18 +367,22 @@ body::-webkit-scrollbar {
     max-width: 100%;
     overflow-x: hidden;
     padding: 10px;
+    display: inline-flex;
 }
 
 .team-players-scrollable {
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     white-space: nowrap;
-    width: max-content;
+    width: 50vw;
     overflow: none;
 }
 
+
 .team-players-card {
-    width: 28vw;
-    height: 35vw;
+    width: 45vw;
+    height: 50vw;
+    margin-top: 2vh;
     padding-top: 1% 0 1% 0;
     background-color: lightgray;
     display: flex;
@@ -703,6 +707,12 @@ table, th, td {
     }
     #score-place, #score-date {
         font-size: 4vh;
+    }
+    #team-players-container {
+        display: block;
+    }
+    .team-players-scrollable {
+        flex-direction: row;
     }
     .team-players-card {
         width: 15vw;
