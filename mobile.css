@@ -1,3 +1,11 @@
+
+/* FOR FUTURE DARK MODE: 
+    Background - #181A1B
+    Semi-Background - #313537
+    Text - #313537
+*/
+
+
 @font-face {
     font-family: rubik-custom-font;
     src: url(font/Rubik-Regular.ttf);
@@ -332,7 +340,7 @@ body::-webkit-scrollbar {
 #score-container {
     background-color: lightgray;
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     overflow: none;
 
     display: flex;
