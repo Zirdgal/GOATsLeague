@@ -378,8 +378,8 @@ body::-webkit-scrollbar {
 
 .team-players-card {
     width: 28vw;
-    height: 25vw;
-    padding: 2%;
+    height: 35vw;
+    padding-top: 1% 0 1% 0;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
@@ -390,8 +390,8 @@ body::-webkit-scrollbar {
     white-space: normal;
     text-align: center;
     overflow:none;
+    font-size: 2vh;
 }
-
 .game-statistics-container {
     background-color: lightgray;
     overflow-x: auto;

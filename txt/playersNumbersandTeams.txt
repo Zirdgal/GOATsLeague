@@ -1,18 +1,18 @@
-Zibens (C) # 3 - Sperma
-Burkāns (A) # 15 - Sperma
-Key-Z  # 19 - Sperma
-Kolēģis # 2 - Sperma
+(C) Zibens  #3 - Sperma
+(A) Burkāns  #15 - Sperma
+(P) Key-Z  #19 - Sperma
+(P) Kolēģis #2 - Sperma
 
-Bums (C) # 8 - Faze LV
-Mucinieks (A) # 18 - Faze LV
-Pidrovskis # 73 - Faze LV
+(C) Bums  #8 - Faze LV
+(A) Mucinieks  #18 - Faze LV
+(P) Pidrovskis #73 - Faze LV
 
-Andrejs (C) # 6 - Brazil
-Traks # 11 Brazil
-Ozollapa (A) # 69 - Brazil
-Edvards # 55 - Brazil
+(C) Andrejs  #6 - Brazil
+(A) Ozollapa  #69 - Brazil
+(P) Traks #11 Brazil
+(R) Edvards #55 - Brazil
 
-Terminators (C) #7 - McD
-Janiga # 9 - McD
-Timofejs (A) # 10 - McD
-Oto # 12 - McD
+(C) Terminators #7 - McD
+(A) Timofejs #10 - McD
+(P) Janiga #9 - McD
+(R) Oto # 12 - McD
