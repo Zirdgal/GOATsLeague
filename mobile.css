@@ -629,6 +629,13 @@ table, th, td {
     overflow-x: hidden;
 }
 
+.page-video {
+    width: 95vw;
+    height: 25vh;
+    margin: 2%;
+    border-radius: 15px;
+}
+
 
 
 
@@ -751,5 +758,9 @@ table, th, td {
     .all-teams-card {
         width: 20vw;
         height: 20vw;
+    }
+    .page-video {
+        width: 25vw;
+        height: 25vh;
     }
 }
