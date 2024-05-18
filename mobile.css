@@ -582,6 +582,49 @@ table, th, td {
 
 
 
+#all-teams-container {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 10px;
+}
+.all-teams-scrollable {
+    display: inline-flex;
+    white-space: nowrap;
+    width: max-content;
+    overflow: auto;
+}
+.all-teams-card {
+    width: 44.5vw;
+    height: 40vw;
+    padding: 2%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-right: 20px;
+    white-space: normal;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 1200px) {
     #topbar-container {
@@ -668,5 +711,19 @@ table, th, td {
     
     #page-highlight img {
         width:15vw;
+    }
+
+
+    #all-teams-container {
+        display: flex;
+        justify-content: center;
+    }
+    .all-teams-scrollable {
+        white-space: wrap;
+        justify-content: center;
+    }
+    .all-teams-card {
+        width: 20vw;
+        height: 20vw;
     }
 }
