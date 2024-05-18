@@ -219,6 +219,7 @@ body::-webkit-scrollbar {
 #players-container {
     max-width: 100%;
     overflow-x: auto;
+    overflow-y: hidden;
     padding: 10px;
 }
 .players-scrollable {
@@ -227,19 +228,37 @@ body::-webkit-scrollbar {
     width: max-content;
     overflow: none;
 }
-.players-card {
-    width: 40vw;
-    height: 33vw;
-    padding: 2%;
+.players-card-full {
+    width: 45vw;
+    height: 50vw;
+    padding: 1%;
     background-color: lightgray;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     border-radius: 15px;
     margin-right: 20px;
     white-space: normal;
     text-align: center;
+}
+.players-card-title {
+    margin:0;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.players-card-title-text {
+    font-size: 2vh;
+    text-wrap: nowrap;
+}
+.leader-icon {
+    width: 20px;
+    height: 20px;
+}
+.players-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .players-card-img {
     width: 75%;
@@ -591,9 +610,9 @@ table, th, td {
         height: 15vw;
         padding: 2%;
     }
-    .players-card {
+    .players-card-full {
         width: 15vw;
-        height: 12.5vw;
+        height: 14vw;
         padding: 2%;
     }
     .index-news-container {
