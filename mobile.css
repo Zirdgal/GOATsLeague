@@ -221,7 +221,7 @@ body::-webkit-scrollbar {
     overflow-x: auto;
     overflow-y: hidden;
     padding: 10px;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 .players-scrollable {
     display: inline-flex;
