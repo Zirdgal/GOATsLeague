@@ -404,6 +404,22 @@ table, th, td {
     padding:7px;
     text-align: center;
 }
+.game-video-container {
+    width: 100vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.game-video {
+    margin-left: 2vw;
+    border-radius: 15px;
+    width: 70vw;
+    height: auto;
+}
+
+
+
 
 
 
