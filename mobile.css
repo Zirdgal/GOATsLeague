@@ -566,25 +566,16 @@ table, th, td {
 @media (min-width: 1200px) {
     #topbar-container {
         width: 100%;
-        position: fixed;
         top: 0px;
-        background-color: white;
-        z-index: 5;
     }
     #topbar-container a {
         max-height: 8%;
         max-width: 8%;
-        background-color: white;
-        border: none;
-        z-index: 6;
     }
     #topbar-container button {
         margin-top: -30px;
         max-height: 10%;
         max-width: 10%;
-        background-color: white;
-        border: none;
-        z-index: 7;
     }
     #everything-container {
         overflow: hidden;
@@ -641,5 +632,21 @@ table, th, td {
     .news-card {
         margin-left: 25vw;
         width:33vw;
+    }
+
+    
+    .team-news-card {
+        margin-top:0%;
+        width:20vw;
+        padding:1%;
+    }
+
+    #team-highlight-container {
+        padding: 5%;
+        background-color: lightgray;
+    }
+    
+    #page-highlight img {
+        width:15vw;
     }
 }
