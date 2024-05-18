@@ -307,8 +307,8 @@ body::-webkit-scrollbar {
     word-wrap:break-word;
 }
 .index-news-card-img {
-    width:125%;
-    height: 20vh;
+    width:100%;
+    height: auto;
     border-radius:15px;
     overflow:hidden;
 }
