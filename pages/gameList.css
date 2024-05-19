@@ -13,7 +13,7 @@
 .all-matches-card {
     width: 95vw;
     padding: 5%;
-    background-color: lightgray;
+    background-color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
