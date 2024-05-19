@@ -270,6 +270,20 @@ body::-webkit-scrollbar {
     width: 20px;
     height: 20px;
 }
+.specialized-players-card-title {
+    margin:0;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.specialized-players-card-title-text {
+    height: 2vh;
+}
+.specialized-leader-icon {
+    max-width: 30px;
+}
 .players-card {
     display: flex;
     flex-direction: column;
