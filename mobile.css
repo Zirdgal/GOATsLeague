@@ -61,8 +61,11 @@ h3 {
     padding-left: 5%;
 }
 #theme-toggle-button {
-    width: 10vw;
-    height: 5vh;
+    margin-top: 2%;
+}
+#theme-toggle-button img {
+    width: 70%;
+    height: 70%;
 }
 #settings {
     padding-right: 5%;
