@@ -11,7 +11,7 @@ const getRelativePath = (path) => {  // Function to determine the relative path
     const depth = (currentPath.match(/\//g) || []).length - 1; // Gets all refrences of / \ // g , or if there is nothing make it just an empty [], -1 is to remove the base / 
 
     let relativePath = path; // new variable for the path
-    for (let i = 0; i < depth; i++) { // for loop
+    for (let i = 0; i < depth; i++) { // for as many /, add ../
         relativePath = "../" + relativePath;
     }
     return relativePath;
