@@ -2,12 +2,14 @@
 /* FOR DARK MODE: 
     Background - #181A1B
     Semi-Background - #313537
-    Text - #313537
+    Text - #ACA8A6
+    Special Text - #ccc;
 */
 :root {
     --primary-color: #fff;
     --secondary-color: #D3D3D3;
     --text: #111;
+    --secondary-text: #3f3f3f;
 }
 
 @font-face {
@@ -29,7 +31,7 @@ body.dropdown-open {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: var(--text);
 }
 h2 {
     margin-left: 2%;
@@ -44,15 +46,11 @@ h3 {
     top: 0px;
     background-color: inherit;
     z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-#topbar-container a {
-    max-height: 20%;
-    max-width: 20%;
-    background-color: inherit;
-    border: none;
-    z-index: 6;
-}
-#topbar-container button {
+#topbar-container a, #topbar-container button {
     max-height: 20%;
     max-width: 20%;
     background-color: inherit;
@@ -60,11 +58,13 @@ h3 {
     z-index: 6;
 }
 #logo {
-    float: left;
     padding-left: 5%;
 }
+#theme-toggle-button {
+    width: 10vw;
+    height: 5vh;
+}
 #settings {
-    float: right;
     padding-right: 5%;
     padding-top: 3%;
 }
@@ -283,7 +283,7 @@ body::-webkit-scrollbar {
     border-radius: 15px;
 }
 .players-card-pos {
-    color: rgb(63, 63, 63);
+    color: var(--secondary-text);
 }
 
 
@@ -415,7 +415,7 @@ body::-webkit-scrollbar {
 }
 
 table, th, td {
-    border: 1px black solid;
+    border: 1px var(--text) solid;
     border-collapse: collapse;
     padding:7px;
     text-align: center;

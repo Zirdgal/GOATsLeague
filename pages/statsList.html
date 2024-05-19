@@ -15,7 +15,7 @@
     <style>
     
 .all-statistics-container {
-    background-color: lightgray;
+    background-color: var(--secondary-color);
     overflow-x: auto;
     overflow-y: hidden;
 }
@@ -25,7 +25,8 @@
 <body>
     <div id="topbar-container">
         <a id="logo" href="../index.html"><img src="../img/logo.png" class="topbar-img"></a>
-        <button id="settings" onclick="toggleDropdown()"><img src="../img/settings.png" class="topbar-img"></button>
+        <input id="theme-toggle-button" type="checkbox">
+        <button id="settings" onclick="toggleDropdown()"><img src="../img/settings.png" class="topbar-img" id="settings-img"></button>
     </div>
 
     <div id="dropdown" class="dropdown-menu">
@@ -138,5 +139,6 @@
         document.body.classList.toggle('dropdown-open'); // Toggle body class to allow scroll
     }
 </script>
+<script src="../themeToggle.js"></script>
 </body>
 </html>
