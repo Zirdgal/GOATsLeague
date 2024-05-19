@@ -6,13 +6,24 @@ const settingsButtonImg = document.getElementById("settings-img"); // Get the Im
 const themeButtonImg = document.getElementById("theme-toggle-button-image"); // Get the Image for the button itself so I can change it to sun and moon
 
 
+const getRelativePath = (path) => {  // Function to determine the relative path
+    const currentPath = window.location.pathname; // Gets the full url and takes the path part- x.com/files/post.html = > /files/post.html
+    const depth = (currentPath.match(/\//g) || []).length - 1; // Gets all refrences of / \ // g , or if there is nothing make it just an empty [], -1 is to remove the base / 
+
+    let relativePath = path; // new variable for the path
+    for (let i = 0; i < depth; i++) { // for loop
+        relativePath = "../" + relativePath;
+    }
+    return relativePath;
+};
+
 const enableDarkMode = () => {
     rootElement.style.setProperty("--primary-color", "#181A1B");
     rootElement.style.setProperty("--secondary-color", "#313537");
     rootElement.style.setProperty("--text", "#ACA8A6");
     rootElement.style.setProperty("--secondary-text", "#ccc");
-    settingsButtonImg.src = "/img/settings-white.png";
-    themeButtonImg.src = "/img/icons/moon.png";
+    settingsButtonImg.src = getRelativePath("img/settings-white.png");
+    themeButtonImg.src = getRelativePath("img/icons/moon.png");
 };
 // ^ When the function is called change all the colours to the dark versions
 
@@ -22,8 +33,8 @@ const disableDarkMode = () => {
     rootElement.style.setProperty("--secondary-color", "#D3D3D3");
     rootElement.style.setProperty("--text", "#111");
     rootElement.style.setProperty("--secondary-text", "#3f3f3f");
-    settingsButtonImg.src = "/img/settings.png";
-    themeButtonImg.src = "/img/icons/sun.png";
+    settingsButtonImg.src = getRelativePath("img/settings.png");
+    themeButtonImg.src = getRelativePath("img/icons/sun.png");
 };
 // ^ When the function is called change all the colours to the light versions
 
