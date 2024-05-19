@@ -6,7 +6,7 @@ const game0000 = {
     team2: "", team2Goal: 0,team2Assist: 0,team2Save: 0,team2Foul: 0
 };
 export const game0004 = {
-    team1: "Brazz", team1Goal: 3,team1Assist: 0,team1Save: 3,team1Foul: 3,
+    team1: "Brazz", team1Goal: 3,team1Assist: 0,team1Save: 3,team1Foul: 2,
     team2: "Sperma", team2Goal: 2,team2Assist: 0,team2Save: 8,team2Foul: 2
 };
 export const game0005 = {
