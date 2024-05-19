@@ -44,7 +44,7 @@ h3 {
     width: 100%;
     position: fixed;
     top: 0px;
-    background-color: inherit;
+    background-color: var(--primary-color);
     z-index: 5;
     display: flex;
     justify-content: space-between;
@@ -53,7 +53,7 @@ h3 {
 #topbar-container a, #topbar-container button {
     max-height: 20%;
     max-width: 20%;
-    background-color: inherit;
+    background-color: var(--primary-color);
     border: none;
     z-index: 6;
 }
