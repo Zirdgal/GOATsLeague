@@ -11,7 +11,7 @@ export const game0004 = {
 };
 export const game0005 = {
     team1: "Sperma", team1Goal: 3,team1Assist: 1,team1Save: 7,team1Foul: 2, 
-    team2: "Faze", team2Goal: 4,team2Assist: 0,team2Save: 5,team2Foul: 4
+    team2: "Faze", team2Goal: 4,team2Assist: 1,team2Save: 5,team2Foul: 4
 };
 export const game0006 = {
     team1: "McD", team1Goal: 0,team1Assist: 0,team1Save: 0,team1Foul: 0, 
