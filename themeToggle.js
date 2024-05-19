@@ -22,8 +22,8 @@ const disableDarkMode = () => {
     rootElement.style.setProperty("--secondary-color", "#D3D3D3");
     rootElement.style.setProperty("--text", "#111");
     rootElement.style.setProperty("--secondary-text", "#3f3f3f");
-    settingsButtonImg.src = "/img/settings.png";
-    themeButtonImg.src = "/img/icons/sun.png";
+    settingsButtonImg.src = "./img/settings.png";
+    themeButtonImg.src = "./img/icons/sun.png";
 };
 // ^ When the function is called change all the colours to the light versions
 
