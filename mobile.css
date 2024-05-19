@@ -682,6 +682,9 @@ table, th, td {
         max-height: 10%;
         max-width: 10%;
     }
+    #theme-toggle-button-image {
+        margin-top: 3vh;
+    }
     #everything-container {
         overflow: hidden;
         margin-top: 10%;
