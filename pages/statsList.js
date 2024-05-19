@@ -32,7 +32,6 @@ let mcdAssistObject =  document.getElementById("stats-mcd-assist");
 let mcdFoulObject =  document.getElementById("stats-mcd-foul");
 let mcdSaveObject =  document.getElementById("stats-mcd-save");
 
-fazeGamesPlayedObject.innerHTML = fazeStats.gamesPlayed;
 fazeGamesWonObject.innerHTML = fazeStats.gamesWon;
 fazeGamesLostObject.innerHTML = fazeStats.gamesLost;
 fazeGoalObject.innerHTML = fazeStats.goals;
@@ -40,7 +39,6 @@ fazeAssistObject.innerHTML = fazeStats.assists;
 fazeFoulObject.innerHTML = fazeStats.fouls;
 fazeSaveObject.innerHTML = fazeStats.saves;
 
-brazzGamesPlayedObject.innerHTML = brazzStats.gamesPlayed;
 brazzGamesWonObject.innerHTML = brazzStats.gamesWon;
 brazzGamesLostObject.innerHTML = brazzStats.gamesLost;
 brazzGoalObject.innerHTML = brazzStats.goals;
@@ -48,7 +46,6 @@ brazzAssistObject.innerHTML = brazzStats.assists;
 brazzFoulObject.innerHTML = brazzStats.fouls;
 brazzSaveObject.innerHTML = brazzStats.saves;
 
-spermaGamesPlayedObject.innerHTML = spermaStats.gamesPlayed;
 spermaGamesWonObject.innerHTML = spermaStats.gamesWon;
 spermaGamesLostObject.innerHTML = spermaStats.gamesLost;
 spermaGoalObject.innerHTML = spermaStats.goals;
@@ -56,7 +53,6 @@ spermaAssistObject.innerHTML = spermaStats.assists;
 spermaFoulObject.innerHTML = spermaStats.fouls;
 spermaSaveObject.innerHTML = spermaStats.saves;
 
-mcdGamesPlayedObject.innerHTML = mcdStats.gamesPlayed;
 mcdGamesWonObject.innerHTML = mcdStats.gamesWon;
 mcdGamesLostObject.innerHTML = mcdStats.gamesLost;
 mcdGoalObject.innerHTML = mcdStats.goals;
