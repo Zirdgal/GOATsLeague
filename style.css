@@ -458,6 +458,7 @@ table, th, td {
     display: flex;
     flex-direction: row;
     align-content:center;
+    align-items: center;
 }
 .team-name-text {
     align-self: center;
@@ -781,5 +782,11 @@ table, th, td {
     .page-video {
         width: 25vw;
         height: 25vh;
+    }
+    .text-icon-image-players {
+        margin-left: 2.5%;
+    }
+    .team-name-container h3 {
+        margin-left: 1%;
     }
 }
