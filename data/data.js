@@ -32,21 +32,31 @@ function collectTeamStatsFromGames(games) {
     games.forEach(game => {
         // Process stats for team1
         if (!teamStats[game.team1]) { 
-            teamStats[game.team1] = { goals: 0, assists: 0, saves: 0, fouls: 0 }; // does a whacky check to not make a memory leak
+            teamStats[game.team1] = { goals: 0, assists: 0, saves: 0, fouls: 0, gamesPlayed: 0, gamesWon: 0, gamesLost: 0 }; // does a whacky check to not make a memory leak
         }
         teamStats[game.team1].goals += game.team1Goal;
         teamStats[game.team1].assists += game.team1Assist; // += means to bassicaly transfer the value of the number
         teamStats[game.team1].saves += game.team1Save; // on the right to be the same as the left
         teamStats[game.team1].fouls += game.team1Foul;
+        teamStats[game.team1].gamesPlayed += 1;
 
         // Process stats for team2
         if (!teamStats[game.team2]) {
-            teamStats[game.team2] = { goals: 0, assists: 0, saves: 0, fouls: 0 };
+            teamStats[game.team2] = { goals: 0, assists: 0, saves: 0, fouls: 0, gamesPlayed: 0, gamesWon: 0, gamesLost: 0 };
         }
         teamStats[game.team2].goals += game.team2Goal;
         teamStats[game.team2].assists += game.team2Assist;
         teamStats[game.team2].saves += game.team2Save;
         teamStats[game.team2].fouls += game.team2Foul;
+        teamStats[game.team1].gamesPlayed += 1;
+        
+        if (game.team1Goal > game.team2Goal) { // if team1 has more goals,
+            teamStats[game.team1].gamesWon += 1; // team1 gamesWon adds 1
+            teamStats[game.team2].gamesLost += 1; // team1 gamesLost adds 1
+        } else if (game.team1Goal < game.team2Goal) { // if team 2 has more goals, do the opposite
+            teamStats[game.team1].gamesLost += 1;
+            teamStats[game.team2].gamesWon += 1;
+        }
     });
 
     return teamStats; // repeat
