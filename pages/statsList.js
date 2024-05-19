@@ -63,5 +63,3 @@ mcdGoalObject.innerHTML = mcdStats.goals;
 mcdAssistObject.innerHTML = mcdStats.assists;
 mcdFoulObject.innerHTML = mcdStats.fouls;
 mcdSaveObject.innerHTML = mcdStats.saves;
-
-console.log(brazzStats);
