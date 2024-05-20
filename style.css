@@ -798,6 +798,10 @@ table, th, td {
         width: 25vw;
         height: 25vh;
     }
+    .game-video {
+        width:25vw;
+        height: 30vh;
+    }
     .text-icon-image-players {
         margin-left: 2.5%;
     }
