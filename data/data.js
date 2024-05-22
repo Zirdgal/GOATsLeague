@@ -1,10 +1,6 @@
 
 // Match Data
 
-const game0000 = {
-    team1: "", team1Goal: 0,team1Assist: 0,team1Save: 0,team1Foul: 0, 
-    team2: "", team2Goal: 0,team2Assist: 0,team2Save: 0,team2Foul: 0
-};
 export const game0004 = {
     team1: "Brazz", team1Goal: 3,team1Assist: 0,team1Save: 3,team1Foul: 2,
     team2: "Sperma", team2Goal: 2,team2Assist: 0,team2Save: 8,team2Foul: 2
@@ -28,6 +24,14 @@ export const game0008 = {
 export const game0009 = {
     team1: "McD", team1Goal: 3,team1Assist: 0,team1Save: 0,team1Foul: 0, 
     team2: "Sperma", team2Goal: 4,team2Assist: 0,team2Save: 0,team2Foul: 0
+};
+export const game0010 = {
+    team1: "Brazz", team1Goal: 0,team1Assist: 0,team1Save: 0,team1Foul: 0, 
+    team2: "Faze", team2Goal: 0,team2Assist: 0,team2Save: 0,team2Foul: 0
+};
+export const game0011 = {
+    team1: "Brazz", team1Goal: 0,team1Assist: 0,team1Save: 0,team1Foul: 0, 
+    team2: "McD", team2Goal: 0,team2Assist: 0,team2Save: 0,team2Foul: 0
 };
 
 const games = [

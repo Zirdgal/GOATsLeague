@@ -1,6 +1,6 @@
 #all-matches-container {
     max-width: 100%;
-    overflow-y: auto;
+    overflow-y: hidden;
     overflow-x: hidden;
     padding: 10px;
 }
