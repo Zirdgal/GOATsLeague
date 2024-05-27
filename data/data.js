@@ -18,8 +18,8 @@ export const game0007 = {
     team2: "Faze", team2Goal: 4,team2Assist: 1,team2Save: 4,team2Foul: 1
 };
 export const game0008 = {
-    team1: "Sperma", team1Goal: 3,team1Assist: 0,team1Save: 0,team1Foul: 0, 
-    team2: "Faze", team2Goal: 4,team2Assist:0,team2Save: 0,team2Foul: 0
+    team1: "Sperma", team1Goal: 3,team1Assist: 1,team1Save: 6,team1Foul: 0, 
+    team2: "Faze", team2Goal: 4,team2Assist:2,team2Save: 7,team2Foul: 2
 };
 export const game0009 = {
     team1: "McD", team1Goal: 3,team1Assist: 0,team1Save: 0,team1Foul: 0, 
