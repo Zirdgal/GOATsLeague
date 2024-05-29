@@ -1,6 +1,7 @@
 import { brazzStats, spermaStats, fazeStats, mcdStats } from "../data/data.js"; // retrieve data from data.js
 
 let fazeGamesPlayedObject =  document.getElementById("stats-faze-games-played");
+let fazePointsObject =  document.getElementById("stats-faze-points");
 let fazeGamesWonObject =  document.getElementById("stats-faze-games-won");
 let fazeGamesLostObject =  document.getElementById("stats-faze-games-lost");
 let fazeGoalObject =  document.getElementById("stats-faze-goal");
@@ -9,6 +10,7 @@ let fazeFoulObject =  document.getElementById("stats-faze-foul");
 let fazeSaveObject =  document.getElementById("stats-faze-save");
 
 let brazzGamesPlayedObject =  document.getElementById("stats-brazz-games-played");
+let brazzPointsObject =  document.getElementById("stats-brazz-points");
 let brazzGamesWonObject =  document.getElementById("stats-brazz-games-won");
 let brazzGamesLostObject =  document.getElementById("stats-brazz-games-lost");
 let brazzGoalObject =  document.getElementById("stats-brazz-goal");
@@ -17,6 +19,7 @@ let brazzFoulObject =  document.getElementById("stats-brazz-foul");
 let brazzSaveObject =  document.getElementById("stats-brazz-save");
 
 let spermaGamesPlayedObject =  document.getElementById("stats-sperma-games-played");
+let spermaPointsObject =  document.getElementById("stats-sperma-points");
 let spermaGamesWonObject =  document.getElementById("stats-sperma-games-won");
 let spermaGamesLostObject =  document.getElementById("stats-sperma-games-lost");
 let spermaGoalObject =  document.getElementById("stats-sperma-goal");
@@ -25,6 +28,7 @@ let spermaFoulObject =  document.getElementById("stats-sperma-foul");
 let spermaSaveObject =  document.getElementById("stats-sperma-save");
 
 let mcdGamesPlayedObject =  document.getElementById("stats-mcd-games-played");
+let mcdPointsObject =  document.getElementById("stats-mcd-points");
 let mcdGamesWonObject =  document.getElementById("stats-mcd-games-won");
 let mcdGamesLostObject =  document.getElementById("stats-mcd-games-lost");
 let mcdGoalObject =  document.getElementById("stats-mcd-goal");

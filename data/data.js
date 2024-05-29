@@ -65,6 +65,7 @@ function collectTeamStatsFromGames(games) {
         if (game.team1Goal > game.team2Goal) { // if team1 has more goals,
             teamStats[game.team1].gamesWon += 1; // team1 gamesWon adds 1
             teamStats[game.team2].gamesLost += 1; // team1 gamesLost adds 1
+            
         } else if (game.team1Goal < game.team2Goal) { // if team 2 has more goals, do the opposite
             teamStats[game.team1].gamesLost += 1;
             teamStats[game.team2].gamesWon += 1;
